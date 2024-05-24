@@ -1,0 +1,20 @@
+name: TestJavaPlugin
+version: '${project.version}'
+main: me.naoko.testjavaplugin.TestJavaPlugin
+api-version: '1.20'
+commands:
+  ciao:
+    description: "ciao"
+    usage: "/<command>"
+  god:
+    description: "god"
+    usage: "/<command>"
+  heal:
+    description: "heal"
+    usage: "/<command>"
+  setspawn:
+    description: "set spawn"
+    usage: "/<command>"
+  spawn:
+    description: "spawn"
+    usage: "/<command>"
